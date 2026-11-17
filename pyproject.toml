@@ -14,8 +14,8 @@ dependencies = [
 ]
 
 [tool.flet]
-org = "net.uafix"
-product = "UAFix Player"
+org = "net.uafixtest"
+product = "UAFix Test"
 company = "UAFix Player"
 copyright = "UAFix Player"
 
