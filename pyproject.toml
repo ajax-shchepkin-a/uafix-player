@@ -14,8 +14,8 @@ dependencies = [
 ]
 
 [tool.flet]
-org = "net.uafix"
-product = "UAFix Player"
+org = "net.uafixtest"
+product = "UAFix Test"
 company = "UAFix Player"
 copyright = "UAFix Player"
 
@@ -33,6 +33,7 @@ hide_window_on_start = true
 # фон адаптивної іконки — як у самої іконки (інакше Flet підкладає білий і з'являється ореол);
 # сама іконка — assets/icon_android.png на всю площу, зміст у безпечній зоні
 adaptive_icon_background = "#15171C"
+legacy_packaging = true
 
 # посилання uafix://open?url=<сторінка тайтлу на uafix.net>[&play=1] — відкрити тайтл
 # (напр. з головного екрана телевізора — одразу продовжити перегляд)
